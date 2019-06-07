@@ -1,3 +1,4 @@
 @echo off
-node --experimental-modules --no-warnings js\diff2package.mjs
+echo ˆ—ŠJn...
+node --experimental-modules --no-warnings js\main.js
 PAUSE

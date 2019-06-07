@@ -1,8 +1,8 @@
 {
-  "name": "diff2package",
+  "name": "resource-poipoi",
   "version": "1.0.0",
-  "description": "",
-  "main": "js/diff2package.js",
+  "description": "git管理されてるVSCode上のSF系リソースをantリリースとか用にぽいぽいするやつ",
+  "main": "js/main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,5 +10,6 @@
   "license": "ISC",
   "dependencies": {
     "cheerio": "^1.0.0-rc.3"
-  }
+  },
+  "type": "module"
 }

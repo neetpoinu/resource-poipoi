@@ -1,11 +1,11 @@
 const TAB = '    ';
 
-const toXml = root => {
+export const toXml = root => {
   const header = '<?xml version="1.0" encoding="UTF-8"?>';
   return header + root.text();
 };
 
-class Element {
+export class Element {
   #name;
   #attributes;
   #children;
@@ -47,7 +47,7 @@ class Element {
   }
 }
 
-class TextNode extends Element {
+export class TextNode extends Element {
   #text;
   constructor(text) {
     super();
@@ -56,10 +56,4 @@ class TextNode extends Element {
   text() {
     return this.#text;
   }
-}
-
-export default {
-  toXml,
-  Element,
-  TextNode
 }
